@@ -1,5 +1,5 @@
-data/
-ipynb_checkpoints/
-__pycache__/
-.ipynb
-logs/
+/data
+/.ipynb_checkpoints
+/__pycache__
+*.ipynb
+/logs
