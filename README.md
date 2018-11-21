@@ -29,16 +29,24 @@ Res-101    | 8 TitanX | 24| 1e-2 | 10  | 12  |  0.22 hr | 9688MB  | 74.2
 
 ## Training (waiting to be added IoU-branch)
 
-mkdir data
-cd data
-wget http://host.robots.ox.ac.uk/pascal/VOC/voc2007/VOCtrainval_06-Nov-2007.tar
-wget http://host.robots.ox.ac.uk/pascal/VOC/voc2007/VOCtest_06-Nov-2007.tar
-wget http://host.robots.ox.ac.uk/pascal/VOC/voc2007/VOCdevkit_08-Jun-2007.tar
-tar xvf VOCtrainval_06-Nov-2007.tar
-tar xvf VOCtest_06-Nov-2007.tar
-tar xvf VOCdevkit_08-Jun-2007.tar
+
+    mkdir data
+
+    cd data
+
+    wget http://host.robots.ox.ac.uk/pascal/VOC/voc2007/VOCtrainval_06-Nov-2007.tar
+
+    wget http://host.robots.ox.ac.uk/pascal/VOC/voc2007/VOCtest_06-Nov-2007.tar
+
+    wget http://host.robots.ox.ac.uk/pascal/VOC/voc2007/VOCdevkit_08-Jun-2007.tar
+
+    tar xvf VOCtrainval_06-Nov-2007.tar
+
+    tar xvf VOCtest_06-Nov-2007.tar
+
+    tar xvf VOCdevkit_08-Jun-2007.tar
 
 
-and you can get pretrained resnet101 from https://www.dropbox.com/s/iev3tkbz5wyyuz9/resnet101_caffe.pth?dl=0
+    and you can get pretrained resnet101 from https://www.dropbox.com/s/iev3tkbz5wyyuz9/resnet101_caffe.pth?dl=0
 
 
