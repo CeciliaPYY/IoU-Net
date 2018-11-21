@@ -1,0 +1,5 @@
+python3 trainval_net.py --start_epoch 0 --epochs 2 --disp_interval 1 \
+--checkpoint_interval 1 --num_workers 4 --cuda --bs 4 --lr 0.001
+                       [--checkpoint_interval CHECKPOINT_INTERVAL] [--save_dir ...] [--num_workers NUM_WORKERS] [--cuda] [--mGPUs] [--lscale] [--bs BATCH_SIZE] [--cag]
+                       [--o OPTIMIZER] [--lr LR] [--lr_decay_step LR_DECAY_STEP] [--lr_decay_gamma LR_DECAY_GAMMA] [--s SESSION] [--r RESUME] [--checksession CHECKSESSION]
+                       [--checkepoch CHECKEPOCH] [--checkpoint CHECKPOINT] [--use_tfboard USE_TFBOARD]

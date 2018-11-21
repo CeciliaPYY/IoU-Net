@@ -1,0 +1,21 @@
+INFO:root:2018-11-21 08:07:19.275045
+INFO:root:{'MOBILENET': {'DEPTH_MULTIPLIER': 1.0, 'REGU_DEPTH': False, 'FIXED_LAYERS': 5, 'WEIGHT_DECAY': 4e-05}, 'POOLING_MODE': 'align', 'RNG_SEED': 3, 'MAX_NUM_GT_BOXES': 20, 'HAS_MASK': True, 'CUDA': False, 'TEST': {'RPN_POST_NMS_TOP_N': 300, 'SVM': False, 'BBOX_REG': True, 'RPN_TOP_N': 5000, 'RPN_NMS_THRESH': 0.7, 'MAX_SIZE': 1000, 'HAS_RPN': True, 'NMS': 0.3, 'RPN_MIN_SIZE': 16, 'SCALES': [600], 'PROPOSAL_METHOD': 'gt', 'RPN_PRE_NMS_TOP_N': 6000, 'MODE': 'nms'}, 'FEAT_STRIDE': [16], 'FPN_ANCHOR_STRIDE': 1, 'ANCHOR_RATIOS': [0.5, 1, 2], 'MATLAB': 'matlab', 'DATA_DIR': '/workspace/mnt/group/customization/pengyuyan/IoU-Net/data', 'RESNET': {'MAX_POOL': False, 'FIXED_BLOCKS': 1}, 'TRAIN': {'RPN_POSITIVE_OVERLAP': 0.7, 'MAX_SIZE': 1000, 'BBOX_INSIDE_WEIGHTS': [1.0, 1.0, 1.0, 1.0], 'TRIM_HEIGHT': 600, 'RPN_POST_NMS_TOP_N': 2000, 'BATCH_SIZE': 128, 'ASPECT_GROUPING': False, 'BBOX_NORMALIZE_STDS': [0.1, 0.1, 0.2, 0.2], 'DISPLAY': 20, 'SCALES': [600], 'RPN_POSITIVE_WEIGHT': -1.0, 'SUMMARY_INTERVAL': 180, 'BG_THRESH_LO': 0.0, 'DOUBLE_BIAS': False, 'MOMENTUM': 0.9, 'SNAPSHOT_KEPT': 3, 'BIAS_DECAY': False, 'TRUNCATED': False, 'USE_GT': False, 'STEPSIZE': [30000], 'GAMMA': 0.1, 'RPN_MIN_SIZE': 8, 'RPN_CLOBBER_POSITIVES': False, 'SNAPSHOT_ITERS': 5000, 'PROPOSAL_METHOD': 'gt', 'TRIM_WIDTH': 600, 'USE_FLIPPED': True, 'RPN_BBOX_INSIDE_WEIGHTS': [1.0, 1.0, 1.0, 1.0], 'RPN_NMS_THRESH': 0.7, 'LEARNING_RATE': 0.001, 'RPN_BATCHSIZE': 256, 'BBOX_NORMALIZE_MEANS': [0.0, 0.0, 0.0, 0.0], 'BBOX_THRESH': 0.5, 'FG_FRACTION': 0.25, 'RPN_NEGATIVE_OVERLAP': 0.3, 'USE_ALL_GT': True, 'SNAPSHOT_PREFIX': 'res101_faster_rcnn', 'IMS_PER_BATCH': 1, 'WEIGHT_DECAY': 0.0001, 'BBOX_REG': True, 'BN_TRAIN': False, 'FG_THRESH': 0.5, 'HAS_RPN': True, 'RPN_FG_FRACTION': 0.5, 'BBOX_NORMALIZE_TARGETS_PRECOMPUTED': True, 'RPN_PRE_NMS_TOP_N': 12000, 'BG_THRESH_HI': 0.5, 'BBOX_NORMALIZE_TARGETS': True}, 'CROP_RESIZE_WITH_MAX_POOL': False, 'EXP_DIR': 'res101', 'EPS': 1e-14, 'PIXEL_MEANS': array([[[102.9801, 115.9465, 122.7717]]]), 'FPN_FEAT_STRIDES': [4, 8, 16, 32, 64], 'DEDUP_BOXES': 0.0625, 'FPN_ANCHOR_SCALES': [32, 64, 128, 256, 512], 'ANCHOR_SCALES': [8, 16, 32], 'USE_GPU_NMS': True, 'ROOT_DIR': '/workspace/mnt/group/customization/pengyuyan/IoU-Net', 'GPU_ID': 0, 'POOLING_SIZE': 7}
+INFO:root:10022 roidb entries
+INFO:root:[session 1][epoch  0][iter    0] loss: 3.9279, lr: 1.00e-04
+INFO:root:			fg/bg=(38/474), time cost: 1.145189
+INFO:root:			rpn_cls: 0.6993, rpn_box: 0.0063, rcnn_cls: 3.0576, rcnn_box 0.1646
+INFO:root:[session 1][epoch  0][iter    1] loss: 4.0448, lr: 1.00e-04
+INFO:root:			fg/bg=(65/447), time cost: 0.689717
+INFO:root:			rpn_cls: 0.6989, rpn_box: 0.0122, rcnn_cls: 3.0555, rcnn_box 0.2781
+INFO:root:[session 1][epoch  0][iter    2] loss: 4.0575, lr: 1.00e-04
+INFO:root:			fg/bg=(57/455), time cost: 0.678831
+INFO:root:			rpn_cls: 0.6976, rpn_box: 0.0155, rcnn_cls: 3.0537, rcnn_box 0.2906
+INFO:root:[session 1][epoch  0][iter    3] loss: 4.1411, lr: 1.00e-04
+INFO:root:			fg/bg=(81/431), time cost: 0.709888
+INFO:root:			rpn_cls: 0.6979, rpn_box: 0.0257, rcnn_cls: 3.0532, rcnn_box 0.3643
+INFO:root:[session 1][epoch  0][iter    4] loss: 3.9735, lr: 1.00e-04
+INFO:root:			fg/bg=(42/470), time cost: 0.689330
+INFO:root:			rpn_cls: 0.6982, rpn_box: 0.0109, rcnn_cls: 3.0522, rcnn_box 0.2121
+INFO:root:[session 1][epoch  0][iter    5] loss: 4.1014, lr: 1.00e-04
+INFO:root:			fg/bg=(76/436), time cost: 0.699877
+INFO:root:			rpn_cls: 0.6978, rpn_box: 0.0083, rcnn_cls: 3.0530, rcnn_box 0.3422
