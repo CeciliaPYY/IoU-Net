@@ -13,7 +13,7 @@ from model.rpn.rpn_fpn import _RPN_FPN
 from model.roi_pooling.modules.roi_pool import _RoIPooling
 from model.roi_crop.modules.roi_crop import _RoICrop
 from model.roi_align.modules.roi_align import RoIAlignAvg
-from PreciseRoIPooling.pytorch.prroi_pool import PrRoIPool2D
+from model.prroi_pooling.pytorch.prroi_pool import PrRoIPool2D
 from model.rpn.proposal_target_layer import _ProposalTargetLayer
 from model.utils.net_utils import _smooth_l1_loss, _crop_pool_layer, _affine_grid_gen, _affine_theta
 import time
